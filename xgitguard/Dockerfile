@@ -13,7 +13,7 @@ RUN /venv/bin/python --version
 
 # Set the virtual environment's Python as the default
 ENV PATH="/venv/bin:$PATH"
-ENV GITHUB_TOKEN="github_pat_FIll_it_out"
+ENV GITHUB_TOKEN=""
 
 # # Run the Python application using the virtual environment
 CMD ["python3", "xgitguard/github-public/public_key_detections.py"]
