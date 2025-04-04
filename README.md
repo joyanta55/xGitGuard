@@ -1,3 +1,14 @@
+## Update
+Create Dockerfile rules to run xGitGuard. run 
+```
+# Run with Default configs
+docker build -t my-xGitGuard-app-python .
+```
+to build the docker image. Followed by
+```
+docker run my-xGitGuard-app-python
+```
+
 <h1 align="center"> xGitGuard </h1>
 
 <p align="center">AI-Based Secrets Detection<br>
