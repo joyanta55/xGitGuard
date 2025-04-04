@@ -8,7 +8,11 @@ to build the docker image. Followed by
 ```
 docker run my-xGitGuard-app-python
 ```
+Please make sure to make the following change here in the Dockerfile. 
 
+```
+ENV GITHUB_TOKEN="github_pat_Your_TOKEN"
+```
 <h1 align="center"> xGitGuard </h1>
 
 <p align="center">AI-Based Secrets Detection<br>
