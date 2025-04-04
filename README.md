@@ -8,7 +8,7 @@ to build the docker image. Followed by
 ```
 docker run my-xGitGuard-app-python
 ```
-Please make sure to make the following change here in the Dockerfile. 
+Please make sure to make the following change in the `Dockerfile`. 
 
 ```
 ENV GITHUB_TOKEN="github_pat_Your_TOKEN"
