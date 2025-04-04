@@ -446,7 +446,7 @@ def process_search_results(search_response_lines, search_query, ml_prediction):
                                     secrets_ml_predicted, secrets_detected_file
                                 )
                             except Exception as e:
-                                logger.error(f"Process Error: {e}")
+                                logger.error(f"Process Error dfd24e4f42r : {e}")
                     else:
                         if not secrets_detected_df.empty:
                             detection_writes_per_query += secrets_detected_df.shape[0]
@@ -464,7 +464,7 @@ def process_search_results(search_response_lines, search_query, ml_prediction):
                                     secrets_detected_df, secrets_detected_file
                                 )
                             except Exception as e:
-                                logger.error(f"Process Error: {e}")
+                                logger.error(f"Process Error f3fg3f34f34f : {e}")
 
                 else:
                     logger.debug(
@@ -789,7 +789,7 @@ def run_detections_from_list(
                         repo,
                     )
                 except Exception as e:
-                    logger.error(f"Process Error: {e}")
+                    logger.error(f"Process Error crcrfcerr: {e}")
                     status = False
                     num_of_retry += 1
                 if status:
